@@ -1,35 +1,53 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="tab.css">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>岡野俊輔</title>
   </head>
   <body>
-
-    <div class="tab" id="js-tab">
-      <div class="tab-nav">
-        <a href="" class="tab-nav-item is-active" data-nav="0">Tab-0</a>
-        <a href="" class="tab-nav-item" data-nav="1">Tab-1</a>
-        <a href="" class="tab-nav-item" data-nav="2">Tab-2</a>
-        <a href="" class="tab-nav-item" data-nav="3">Tab-3</a>
-      </div>
-      <div class="tav-contents">
-        <div class="tab-contents-item" data-content="0">
-          タブその0
-        </div>
-        <div class="tab-contents-item" data-content="1">
-          タブその1
-        </div>
-        <div class="tab-contents-item" data-content="2">
-          タブその2
-        </div>
-        <div class="tab-contents-item" data-content="3">
-          タブその3
-        </div>
-      </div>
+    
+    <div class="accordion" id="js-faq">
+        
     </div>
 
-    <script src="tab.js"></script>
+    <br>
 
+     <div class="accordion" id="js-accordion">
+        <a href="" class="accordion-trigger">
+            Q1.小さい頃のせこいエピソードは？
+        </a>
+        <div class="accordion-contents">
+            A1.後ろからババを友達から指示してもらう
+        </div>
+        <a href="" class="accordion-trigger">
+            Q2.おもしろいエピソードは？
+        </a>
+        <div class="accordion-contents">
+            A2.特になし
+        </div>
+        <a href="" class="accordion-trigger">
+            Q2.niziuで好きなメンバーは？
+        </a>
+        <div class="accordion-contents">
+            A2.真ん中の人
+        </div>
+    </div>
+
+    <br>
+
+      <dl class="accordion" id="js-accordion-mini">
+        <dt href="" class="accordion-trigger">
+            Q1.ハマスタでお客さんに怒られた驚きの理由とは？
+        </dt>
+        <dd class="accordion-contents">
+            A1.態度が気に入らない
+        </dd>
+      </dl>
+
+    <script src="accordion.js"></script>
   </body>
+
+
 </html>
